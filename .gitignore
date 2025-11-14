@@ -22,10 +22,12 @@
 /web/sites/*/cache
 
 # Ignore drupal core (if not versioning drupal sources)
+/recipes
+/web
 /web/vendor
 /web/core
 /web/modules/README.txt
-/web/modules/contrib
+/web//core/modules
 /web/profiles/README.txt
 /web/profiles/contrib
 /web/sites/development.services.yml
