@@ -1,0 +1,9 @@
+uuid: 58be129e-1513-43c7-b998-949a837d67c3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Hike difficulty'
+vid: hike_difficulty
+description: null
+weight: 0
+new_revision: false

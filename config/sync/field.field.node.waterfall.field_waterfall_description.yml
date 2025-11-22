@@ -1,0 +1,24 @@
+uuid: 1b02b4c5-30fa-4cc3-824b-47f8c9112451
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_waterfall_description
+    - node.type.waterfall
+  module:
+    - text
+id: node.waterfall.field_waterfall_description
+field_name: field_waterfall_description
+entity_type: node
+bundle: waterfall
+label: 'Waterfall description'
+description: "Describe the Waterfall as beautifully and specifically as you can.\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

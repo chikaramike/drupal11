@@ -1,0 +1,20 @@
+uuid: 63c5e8a6-cd5d-45a8-a06e-4b9ede4f5e37
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_waterfall_height
+field_name: field_waterfall_height
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
